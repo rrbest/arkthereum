@@ -155,15 +155,19 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header6.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url('../img/header6.jpg');
   text-align: center;
   color: white;
+
 }
+
+
 header .header-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
+
 }
 header .header-content .header-content-inner h1 {
   font-weight: 700;
