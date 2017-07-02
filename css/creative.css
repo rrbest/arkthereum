@@ -12,7 +12,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #5d967d;
+  border-color: #CA3317;
   border-width: 3px;
   max-width: 50px;
 }
@@ -23,7 +23,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #5d967d;
+  color: #CA3317;
 }
 a:hover,
 a:focus {
@@ -43,7 +43,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #5d967d;
+  background-color: #CA3317;
 }
 .bg-dark {
   background-color: #222222;
@@ -70,7 +70,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #5d967d;
+  color: #CA3317;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -94,11 +94,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #5d967d;
+  color: #CA3317;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #5d967d !important;
+  color: #CA3317 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -130,7 +130,7 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #5d967d;
+    color: #CA3317;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -143,7 +143,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #5d967d;
+    color: #CA3317;
   }
 }
 header {
@@ -285,7 +285,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #5d967d;
+  color: #CA3317;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -341,8 +341,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #5d967d;
-  border-color: #5d967d;
+  background-color: #CA3317;
+  border-color: #CA3317;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -380,11 +380,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #5d967d;
-  border-color: #5d967d;
+  background-color: #CA3317;
+  border-color: #CA3317;
 }
 .btn-primary .badge {
-  color: #5d967d;
+  color: #CA3317;
   background-color: white;
 }
 .btn {
