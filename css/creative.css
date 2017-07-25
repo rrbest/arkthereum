@@ -29,6 +29,7 @@ a:hover,
 a:focus {
   color: #CA3317;
 }
+
 h1,
 h2,
 h3,
@@ -46,7 +47,7 @@ p {
   background-color: #CA3317;
 }
 .bg-dark {
-  background-color: #222222;
+  background-color: #111111;
   color: white;
 }
 .text-faded {
@@ -82,7 +83,7 @@ aside {
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 12px;
-  color: #222222;
+  color: #111111;
   text-transform: uppercase;
 }
 .navbar-default .nav > li > a,
@@ -90,7 +91,7 @@ aside {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  color: #222222;
+  color: #111111;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -139,7 +140,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: #111111;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
@@ -292,7 +293,7 @@ header .header-content .header-content-inner p {
   padding-left: 0;
 }
 .btn-default {
-  color: #222222;
+  color: #111111;
   background-color: white;
   border-color: white;
   -webkit-transition: all 0.35s;
@@ -305,7 +306,7 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #222222;
+  color: #111111;
   background-color: #f2f2f2;
   border-color: #ededed;
 }
@@ -337,7 +338,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-default .badge {
   color: white;
-  background-color: #222222;
+  background-color: #111111;
 }
 .btn-primary {
   color: white;
@@ -400,12 +401,12 @@ fieldset[disabled] .btn-primary.active {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #111111;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #111111;
 }
 img::selection {
   color: white;
@@ -416,5 +417,6 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #222222;
+  webkit-tap-highlight-color: #111111;
 }
+
