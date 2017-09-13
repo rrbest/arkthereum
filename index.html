@@ -43,7 +43,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="https://aces-ark.io/aces-app">Use ACES</a>
+                <a class="navbar-brand page-scroll" href="https://aces-ark.io/aces-app">Try ACES</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,16 +56,19 @@
                         <a class="dropdown-toggle" href='#' data-toggle="dropdown" 
                         role="button" aria-haspopup="true" aria-expanded="false">Tutorial<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#tut1">Transfering Ark to Ethereum</a></li>
+                                        <li><a href="https://github.com/ark-aces/aces-users-guide">Transfering Ark to Ethereum</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="#tut3">Deploying Contracts</a></li>
+                                        <li><a href="https://github.com/ark-aces/aces-users-guide">Deploying Contracts</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="https://github.com/ark-aces/aces-deployment-guide">Offering ACES</a></li>
+
                                     </ul>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="https://github.com/bradyo/aces-app">GitHub</a>
+                        <a href="https://github.com/ark-aces">GitHub</a>
                     </li>
                 </ul>
             </div>
@@ -78,7 +81,7 @@
         <div class="header-content">
             <div class="header-content-inner" display='inline'>
                 <h1>ACES</h1>
-                <h2><a href="https://ark.io/">Ark Contract Execution Service</a></h2>
+                <h2><a href="https://ark.io/">Ark Contract Execution Services</a></h2>
                 <br>
                <iframe type="text/html" 
                     width="760"
@@ -88,7 +91,7 @@
                 </iframe>
 
                 <hr>
-                <p style=" font-size:120%; color:white">Write smart contracts in Solidity and deploy them to the Ethereum blockchain using <a href="https://ark.io/">Ark</a> SmartBridged transactions.</p>
+                <p style=" font-size:120%; color:white">Transfer Ark to Ethereum or write smart contracts in Solidity and deploy them to the Ethereum blockchain using <a href="https://ark.io/">Ark</a> SmartBridged transactions.</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
@@ -117,146 +120,21 @@
                     <h2 class="section-heading">Tutorial</h2>
                     <hr class="primary">
                         <h4> 
-                            <a class="page-scroll" href='#tut1'>Transfering Ark to Ethereum</a>  | 
-                            <a class="page-scroll" href='#tut3'>Deploying Contracts</a>
+                            <a class="page-scroll" href='https://github.com/ark-aces/aces-users-guide'>Transfering Ark to Ethereum</a>  | 
+                            <a class="page-scroll" href='https://github.com/ark-aces/aces-users-guide'>Deploying Contracts</a> | 
+                            <a class="page-scroll" href='https://github.com/ark-aces/aces-deployment-guide'>Offering ACES</a>
                         </h4>
-
-<div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-
-                        <h2 id='tut1'> <br><br><u> Transfering Ark to Ethereum </u></h2>
-                        <br>
-
-                        <p align="left">
-                        Transferring Ark to Ethereum is easy. In the ACES UI, you may click the Ethereum Transfer tab to pull up the transfer form. On this form you will need to provide three fields, 1) the "Return Ark Address" which is the address you'd like to receive excess ark back, if you happen to send too much.  2) The "Recipient Eth Address" which is the ethereum address you'd like to transfer the ark value to. 3) "Eth Amount" which is the amount of ether you'd like to send to the address. The listener will compute how much equivalent ark you must send to the listener based on this value.
-                        </p>
-
-                        <img src="img/tutorials/transfer/transfer-filledout.png" width="90%" height="auto" align="center">
-                        
-                        <p align="left">
-                        Once you submit the form you will be taken to the listener status page. Initially you will see this page in yellow with the message that it is on and listening to the Ark blockchain. In the red box you'll see the details of the transaction that ACES is listening for. You must send the required ark amount to the Service Ark Address listed and include the SmartBridge Text provided to you. 
-                        </p>
-
-                        <img src="img/tutorials/transfer/transfer-listening.png" width="90%" height="auto" align="center">
-
-                        <p align="left">
-                        Go to your preferred method of Ark transaction. In this example we will use the standard Ark Desktop Wallet. Submit the transaction as required by the listener.
-                        </p>
-
-                        <img src="img/tutorials/transfer/transfer-walletsend.png" width="90%" height="auto" align="center">
-
-                        <p align="left">
-                        Once submitted and confirmed once, the listener will turn green to show it was a success.
-                        </p>
-
-                        <img src="img/tutorials/transfer/transfer-success.png" width="90%" height="auto" align="center">
-                        <p align="left">
-                        You can now confirm that the transfer was a success on the Ethereum blockchain by clicking the "Eth Transaction Hash". 
-                        </p>
-
-                         <img src="img/tutorials/transfer/transfer-rinkebytransactioninfo.png" width="90%" height="auto" align="center">
-
-
-
-
-                            
-
-                        
-
-                    <br><br>
-
-                    <h2 id='tut3'> <br><br><u>  Deploying Contracts  </u></h2>
-                    <br>
-
-                    <p align="left">
-                        The first step for deploying a contract is to write and compile a contract using the <a href="https://remix.ethereum.org/">Ethereum Remix Compiler</a>.
-                    </p>
-
-                    <img src="img/tutorials/contract/contract-remix.png" width="90%" height="auto" align="center">
-
-                    <p align="left">
-                        Once your code is complete, you can gather the necessary inputs by clicking the contract details link as shown below.
-                    </p>
-
-                    <img src="img/tutorials/contract/contract-contractdetails.png" width="50%" height="auto" align="center">
-
-                    <p align="left">
-                        We are interested in the bytecode and interface lines, which we will paste into the respective field on the ACES contract form.
-                    </p>
-
-                    <img src="img/tutorials/contract/contract-contractdetails2.png" width="50%" height="auto" align="center">
-
-                    <p align="left">
-                        Once your form is filled out, it should look something like this:
-                    </p>
-
-                    <img src="img/tutorials/contract/contract-formInput.png" width="90%" height="auto" align="center">
-
-                    <p align="left">
-                        When you are ready, submit your form. You will be taken to the listener status page.
-                    </p>
-
-                    <img src="img/tutorials/contract/contract-listenerWaiting.png" width="90%" height="auto" align="center">
-
-                    <p align="left">
-                        The listener status page shows your the current status of the listener as well as provides instructions on what type of
-                        transaction needs to occur on the Ark blockchain for the listener to act. Send the provided Required Ark Amount to the Service Ark Address
-                        and include the SmartBridge Text. You may clip the copy buttons to grab these values. Your transaction in the ArkClient should appear
-                        similarly as follows:
-                    </p>
-
-                    <img src="img/tutorials/contract/contract-ArkDesktop.png" width="60%" height="auto" align="center">
-
-                    <p align="left">
-                        Once your transaction is submitted, wait for one confirmation on the Ark blockchain and shortly afterwards you will see the
-                        listener service turn green with success.
-                    </p>
-
-                    <img src="img/tutorials/contract/contract-listenerSuccess.png" width="90%" height="auto" align="center">
-
-                    <p align="left">
-                        Click on the Contract Transaction Hash View button to be taken to the ethereum blockchain explorer for the contract
-                        your just submitted.
-                    </p>
-
-                    <img src="img/tutorials/contract/contract-ethexplorer.png" width="90%" height="auto" align="center">
-
-                    <p align="left">
-                        Click the 'Convert to ASCII' button underneath the input data and scroll down to the bottom to see the message!
-                    </p>
-
-                    <img src="img/tutorials/contract/contract-helloEthereumFromArk.png" width="90%" height="auto" align="center">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-            </div>
-        </div>
     </section>
         
 
 
-
-    <section id="contact">
+    <section id="contact" class="bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
                     <hr class="primary">
-                    <p>Need more help with ACES? Reach out on <a href=https://github.com/bradyo/ark-java-smart-bridge-listener>GitHub</a> or <a href="https://arkecosystem.slack.com">Slack</a>. </p>
+                    <p>Need more help with ACES? Reach out on <a href=https://github.com/ark-aces>GitHub</a> or <a href="https://arkecosystem.slack.com">Slack</a>. </p>
                 </div>
 
             </div>
