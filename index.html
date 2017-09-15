@@ -43,7 +43,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Use ACES</a>
+                <a class="navbar-brand page-scroll" href="https://aces-ark.io/">Ark Contract Execution Services</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,25 +53,22 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">How It Works</a>
-                    </li>
-                    <li>
                         <a class="dropdown-toggle" href='#' data-toggle="dropdown" 
                         role="button" aria-haspopup="true" aria-expanded="false">Tutorial<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#tut1">Installing GETH</a></li>
-                                        <li><a href="#tut2">Installing ACES</a></li>
+                                        <li><a href="https://github.com/ark-aces/aces-users-guide#transfering-ark-to-ethereum">Transfering Ark to Ethereum</a></li>
                                         <li role="separator" class="divider"></li>
-                                        <li><a href="#tut3">Creating Contracts</a></li>
-                                        <li><a href="#tut4">Requesting Deployment</a></li>
-                                        <li><a href="#tut5">Verifying Completion</a></li>
+                                        <li><a href="https://github.com/ark-aces/aces-users-guide#deploying-contracts">Deploying Contracts</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="hhttps://github.com/ark-aces/aces-deployment-guide#deploying-your-node">Offering Services</a></li>
+
                                     </ul>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="https://github.com/ark-aces">Github</a>
                     </li>
                     <li>
-                        <a href="https://github.com/bradyo/aces-app">GitHub</a>
+                        <a href="https://aces-ark.io/aces-app/">Try Now</a>
                     </li>
                 </ul>
             </div>
@@ -84,17 +81,17 @@
         <div class="header-content">
             <div class="header-content-inner" display='inline'>
                 <h1>ACES</h1>
-                <h2><a href="https://ark.io/">Ark Contract Execution Service</a></h2>
+                <h2><a href="https://aces-ark.io/">Ark Contract Execution Services</a></h2>
                 <br>
                <iframe type="text/html" 
                     width="760"
                     height="430" 
-                    src="https://www.youtube.com/embed/qugC8sQFR40"
+                    src="https://www.youtube.com/watch?v=X94qHbZBYA8"
                     frameborder="0">
                 </iframe>
 
                 <hr>
-                <p style=" font-size:120%; color:white">Write smart contracts in Solidity and deploy them to the Ethereum blockchain using <a href="https://ark.io/">Ark</a> SmartBridged transactions.</p>
+                <p style=" font-size:120%; color:white">Transfer Ark to Ethereum or write smart contracts in Solidity and deploy them to the Ethereum blockchain using <a href="https://ark.io/">Ark</a> SmartBridged transactions.</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
@@ -107,89 +104,37 @@
                     <h2 class="section-heading">Communicate directly with Ethereum using Ark SmartBridge text.</h2>
                     <hr class="light">
                     <p class="text-faded">Using ACES, you can deploy smart contracts to the Ethereum blockchain using
-                    only Ark transactions and this application. Simply write your contracts or modify one of our (future) templates and call them to deployed using an Ark transaction.</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Go Deeper</a>
+                    only Ark transactions and this application. Simply write your contracts and call them to be deployed using an Ark transaction.</p>
+                    <a href="#tutorial" class="page-scroll btn btn-default btn-xl sr-button">Go Deeper</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">How It Works</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Write and Save Your Contract</h3>
-                        <p class="text-muted">You can use one of our templates or write your own contracts.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Communicate to the ACES provided address</h3>
-                        <p class="text-muted">Send a transaction to the Ethereum Delegate, including the necessary Ethereum gas fee, and a SmartBridge reference to your contract code.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Wait For Response</h3>
-                        <p class="text-muted">The ACES address will return any excess Ark to your account once the Ethereum contract is deployed.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Confirm Your Contract Has Deployed</h3>
-                        <p class="text-muted">Follow the reference provided to see your contract deployed!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <aside id ="tutorial" class='bg-dark'>
+
+    <section id ="tutorial">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Tutorial</h2>
                     <hr class="primary">
                         <h4> 
-                            <a class="page-scroll" href='#tut1'>Installing GETH</a>  | 
-                            <a class="page-scroll" href='#tut2'>Installing ACES</a> | 
-                            <a class="page-scroll" href='#tut3'>Creating Contracts</a> | 
-                            <a class="page-scroll" href='#tut4'>Requesting Deployment</a> | 
-                            <a class="page-scroll" href='#tut5'>Verifying Completion</a></h4>
-                        <h3 id='tut1'> Installing GETH </h3>
-                        <h3 id='tut2'> Installing ACES </h3>
-                        <h3 id='tut3'> Creating Contracts  </h3>
-                        <h3 id='tut4'> Requesting Deployment </h3>
-                        <h3 id='tut5'> Verifying Completion </h3>
-
-                </div>
-            </div>
-        </div>
-    </aside>
+                            <a class="page-scroll" href='https://github.com/ark-aces/aces-users-guide'>Transfering Ark to Ethereum</a>  | 
+                            <a class="page-scroll" href='https://github.com/ark-aces/aces-users-guide'>Deploying Contracts</a> | 
+                            <a class="page-scroll" href='https://github.com/ark-aces/aces-deployment-guide'>Offering ACES</a>
+                        </h4>
+    </section>
         
 
 
-
-    <section id="contact">
+    <section id="contact" class="bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
                     <hr class="primary">
-                    <p>Need more help with ACES? Reach out on <a href=https://github.com/bradyo/ark-java-smart-bridge-listener>GitHub</a> or <a href="https://arkecosystem.slack.com">Slack</a>. </p>
+                    <p>Need more help with ACES? Reach out on <a href=https://github.com/ark-aces>GitHub</a> or <a href="https://arkecosystem.slack.com">Slack</a>. </p>
                 </div>
 
             </div>
